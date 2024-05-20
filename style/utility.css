@@ -1,0 +1,50 @@
+.invert{
+    filter: invert(1);
+}
+.border{
+    border: 2px solid red;
+}
+.flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.bg-gray{
+    background-color: #121212;
+    color: white;
+}
+.round{
+    border-radius: 8px ;
+}
+.m-1{
+    margin: 10px;
+}
+.p-1{
+    padding: 10px;
+}
+/* WebKit Scrollbar */
+::-webkit-scrollbar {
+    width: 9px; /* width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #333; /* color of the track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #666; /* color of the thumb */
+    border-radius: 10px; /* roundness of the thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #888; /* color of the thumb on hover */
+  }
+  
